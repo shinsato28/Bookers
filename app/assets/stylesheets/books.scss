@@ -26,7 +26,7 @@ body{
 table {
     border-collapse: separate;
     text-indent: initial;
-    border-spacing: 8px 0px;
+    border-spacing: 8px;
     border-color: grey;
 }
 
@@ -36,6 +36,7 @@ table {
 
 .create-title{
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .create-box{
@@ -58,4 +59,9 @@ p {
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
+}
+
+.flash-message{
+  margin: 33px;
+  color: #008000;
 }
