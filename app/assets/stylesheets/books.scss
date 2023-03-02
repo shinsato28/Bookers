@@ -32,15 +32,12 @@ table {
 
 .create-box{
   display: flex;
+  margin-top: 10px;
 }
 
 .create-title{
   margin-top: 20px;
   margin-bottom: 10px;
-}
-
-.create-box{
-  margin-top: 10px;
 }
 
 .field{
@@ -64,4 +61,25 @@ p {
 .flash-message{
   margin: 33px;
   color: #008000;
+}
+
+.edit-box{
+  display: flex;
+}
+
+.edit-box{
+  margin-bottom: 10px;
+}
+
+.edit-field {
+  display: block;
+}
+
+.edit-button{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.link-button{
+  color: black;
 }

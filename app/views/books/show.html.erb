@@ -13,7 +13,7 @@
     <%= @book.body %>
   </p>
 
-  <%= link_to "Edit", edit_book_path(@book.id) %>
+  <%= link_to "Edit", edit_book_path(@book.id), {class: "link-button"}  %>
   <span>|</span>
-  <%= link_to "Back", books_path %>
+  <%= link_to "Back", books_path, {class: "link-button"}  %>
 </body>
